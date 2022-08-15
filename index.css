@@ -24,7 +24,7 @@
 .checkbtn i{
    margin-top: 25px;
    color: white;
-   display: none;
+   /* display: none; */
 
 }
 
@@ -250,16 +250,14 @@ footer img{
 
  @media (max-width:1240px){
 
-    .logo{
-        border: 2px solid;
-    }
+   
 
     section{
         flex-direction: column;
     }
     
     .checkbtn{
-        font-size: 30px;
+        font-size: 25px;
         color: white;
         float: right;
         line-height: 80px;
@@ -275,8 +273,9 @@ footer img{
      
     .checkbtn i{
        margin-top: 25px;
+       width: 50px;
        color: white;
-
+       border: 2px solid red;
     }
 
     
